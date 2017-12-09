@@ -50,34 +50,34 @@ Both datasets were provided by King County under CC-0. Additional information is
 
 ### Output Files and Columns
 #### KingCountyFoodInspectionData_Output_Establishment.csv
-**business_id**
+**business_id**  
 Unique Identifier for establishments
 
-**inspection_business_name**
+**inspection_business_name**  
 Name of establishment 
 
-**city**
+**city**  
 City
 
-**description**
+**description**  
 Class of establishment
 
-**InspectTypeCnt_Consult**
+**InspectTypeCnt_Consult**  
 Count of Consultation/Education Inspections
 
-**InspectTypeCnt_Routine**    
+**InspectTypeCnt_Routine**      
 Count of Routine Inspections
 
-**InspectTypeCnt_Return**    
+**InspectTypeCnt_Return**      
 Count of Return Inspections
 
-**ViolationCnt_Blue**    
+**ViolationCnt_Blue**      
 Count of Blue violations
 
-**ViolationCnt_Red**    
+**ViolationCnt_Red**     
 Count of Red violations
 
-**SafetyGroup**
+**SafetyGroup**  
 Safety group rating
 
 
@@ -104,10 +104,14 @@ Percent of establishments with High rating
 **SafetyGroupCnt_Lower**    
 Number of establishments with Low or Very Low rating
 
-**SafetyGroupPcnt_Lower**
+**SafetyGroupPcnt_Lower**  
 Percent of establishments with Low or Very Low rating
 
+#### kingcounty_food_inspection.csv
+Unaltered output from the API call. For columns names please see link under Data sources above.
 
+#### OFM-CitiesPop2016-Formatted.csv
+Manually processed to enable programmatically accessed. See details in iPython notebook. For columns names please see link under Data sources above.
 
 ### Other Issues
 Please see iPython Notebook for more information.
